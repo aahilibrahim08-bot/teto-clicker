@@ -1,0 +1,6 @@
+{
+  "appId": "com.tetoclicker.app",
+  "appName": "Teto Clicker",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}
