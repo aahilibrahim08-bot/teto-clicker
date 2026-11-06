@@ -1,0 +1,18 @@
+{
+  "name": "teto-clicker",
+  "productName": "Teto Clicker",
+  "version": "1.0.0",
+  "description": "Teto Bakery Clicker",
+  "author": "Teto Clicker",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.tetoclicker.desktop",
+    "productName": "Teto Clicker",
+    "files": ["main.js", "icon.png", "www/**/*"],
+    "win": { "target": "portable", "icon": "icon.ico" }
+  }
+}
